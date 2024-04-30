@@ -165,7 +165,7 @@ const QuoteGenerator = () => {
       >
         New Quote{" "}
       </button>
-      <div className="text-4xl bg-[#2f6931] text-center bg-opacity-65 shadow-lg text-white p-28 mt-20">
+      <div className="text-4xl bg-[#2f6931] text-center bg-opacity-65 shadow-lg text-white p-28 mt-10">
         {quote}
       </div>
     </div>
