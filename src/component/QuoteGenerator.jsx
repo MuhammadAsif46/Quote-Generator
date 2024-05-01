@@ -154,20 +154,19 @@ const QuoteGenerator = () => {
   };
 
   return (
-    <div>
-      <h1 className="text-3xl p-4 bg-[#2f6931] shadow-lg text-white">
+    <div className=" w-3/4 mx-auto rounded-xl bg-white shadow-2xl text-center p-6">
+      <h1 className="text-3xl p-4 ">
         Random Quote Generator
+        <p className="bg-blue-800 h-1 mt-2 w-32 mx-auto"></p>
       </h1>
 
+      <div className="h-40 mt-16 text-3xl text-slate-700 px-3">{quote}</div>
       <button
         onClick={randomQuoteHandler}
-        className="bg-[#357937] hover:bg-[#358337] ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 duration-300 ... rounded-xl text-white p-4 mt-10 "
+        className="bg-blue-600 hover:bg-blue-700 text-2xl p-4 text-white ease-in-out delay-100 hover:-translate-y-1 hover:scale-110 duration-300 ... rounded-full"
       >
         New Quote{" "}
       </button>
-      <div className="text-4xl bg-[#2f6931] text-center bg-opacity-65 shadow-lg text-white p-28 mt-10">
-        {quote}
-      </div>
     </div>
   );
 };
